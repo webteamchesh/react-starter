@@ -11,4 +11,3 @@ __snapshots__
 .out
 storybook-static/
 /.fleet
-.env
