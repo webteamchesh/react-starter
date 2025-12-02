@@ -15,6 +15,11 @@ const contentTypeRoutes: ContentTypeRoute[] = [
     component: Content,
     entryMapper: mapRouteEntryToProps(contentMapper),
   },
+  {
+    contentTypeID: contentTypes.basicPage,
+    component: Content,
+    entryMapper: mapRouteEntryToProps(contentMapper),
+  },
 ];
 
 export default contentTypeRoutes;
